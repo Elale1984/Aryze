@@ -7,4 +7,22 @@
     <string name="forPass">Forgot?</string>
     <string name="LogIn">Sign In</string>
     <string name="SignUp">Sign Up?</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="tv_SignUp">Sign Up</string>
+    <string name="tv_fName">First Name</string>
+    <string name="et_Password">Enter Password</string>
+    <string name="et_re_enter_password">Re-Enter Password</string>
+    <string name="et_user_name_SU">User Name</string>
+    <string name="et_New_Email">Email</string>
+    <string name="et_New_Enter_Pass">Enter Password</string>
+    <string name="et_Re_Enter_Pass">Re_Enter Password</string>
+    <string name="btn_Sign_Up">Sign Up</string>
 </resources>

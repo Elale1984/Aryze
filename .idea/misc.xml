@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Aryze/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
         <entry key="..\:/Aryze/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Aryze/app/src/main/res/layout/activity_sign_up.xml" value="0.24010416666666667" />
       </map>
     </option>
   </component>
