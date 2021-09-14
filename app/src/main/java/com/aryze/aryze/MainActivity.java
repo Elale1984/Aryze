@@ -1,11 +1,17 @@
 package com.aryze.aryze;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
+import android.text.method.PasswordTransformationMethod;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -13,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button btnLogIn;
     TextView tvForUser, tvForPass, tvSignUp;
     EditText etUser, etPass;
+    ImageView showPass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,8 +36,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tvForPass.setOnClickListener(this);
         tvForUser = findViewById(R.id.tvForgotUser);
         tvForUser.setOnClickListener(this);
-        tvSignUp = findViewById(R.id.tvSignIn);
+        tvSignUp = findViewById(R.id.tvSignUp);
         tvSignUp.setOnClickListener(this);
+
+        showPass = findViewById(R.id.iv_Show_Pass);
+        showPass.setOnClickListener(this);
+
     }
 
     @Override
@@ -42,8 +53,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.tvForgotUser:
                 Toast.makeText(MainActivity.this, "Forgot User Name Event", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.tvSignIn:
-                Toast.makeText(MainActivity.this, "Sign Up Event", Toast.LENGTH_SHORT).show();
+            case R.id.tvSignUp:
+                Intent i = new Intent(getApplicationContext(),SignUp.class);
+                startActivity(i);
                 break;
             case R.id.btnLogIn:
                 String user = etUser.getText().toString();
@@ -55,16 +67,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     etUser.setText("");
                     etPass.setText("");
                 }
-                else{
+                else {
                     Toast.makeText(MainActivity.this, "Invalid Credentials, Try again", Toast.LENGTH_SHORT).show();
                 }
-
-
+                break;
+            case R.id.iv_Show_Pass:
+                etPass.setTransformationMethod(null);
+                break;
 
             default:
                 break;
         }
     }
+
 
     private boolean ValidateCredentials(String user, String pass) {
 
@@ -81,4 +96,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         return validated;
     }
+
+
+
 }

@@ -67,7 +67,9 @@
         android:layout_alignEnd="@+id/etPass"
         android:layout_marginTop="30dp"
         android:id="@+id/btnLogIn"/>
+
     <TextView
+        android:id="@+id/tvSignUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/etPass"
@@ -76,7 +78,18 @@
         android:layout_toStartOf="@+id/btnLogIn"
         android:text="@string/SignUp"
         android:textColor="@color/blue"
-        android:textSize="20sp"
-        android:id="@+id/tvSignIn"/>
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/iv_Show_Pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_view"
+        android:layout_below="@+id/tvForgotUser"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginTop="20dp"
+
+        />
 
 </RelativeLayout>
