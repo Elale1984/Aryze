@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Aryze</string>
+    <string name="tv_login_header">Sign In</string>
+    <string name="et_UserName">User Name</string>
+    <string name="tv_forUser">Forgot?</string>
+    <string name="Pass">Password</string>
+    <string name="forPass">Forgot?</string>
+    <string name="LogIn">Sign In</string>
+    <string name="SignUp">Sign Up?</string>
+</resources>

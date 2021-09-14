@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tv_login_header"
+        android:textSize="40sp"
+        android:textColor="@color/blue"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvHeader"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/et_UserName"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/tvForgotUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etUserName"
+        android:layout_alignEnd="@+id/etUserName"
+        android:text="@string/tv_forUser"
+        android:textColor="@color/blue" />
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etUserName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:hint="@string/Pass"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/tvForgotPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPass"
+        android:layout_alignEnd="@+id/etPass"
+        android:text="@string/forPass"
+        android:textColor="@color/blue" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LogIn"
+        android:layout_below="@+id/etPass"
+        android:layout_alignEnd="@+id/etPass"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnLogIn"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPass"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        android:layout_toStartOf="@+id/btnLogIn"
+        android:text="@string/SignUp"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:id="@+id/tvSignIn"/>
+
+</RelativeLayout>
