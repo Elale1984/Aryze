@@ -5,9 +5,29 @@
       <map>
         <entry key="..\:/Aryze/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
         <entry key="..\:/Aryze/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Aryze/app/src/main/res/drawable/ic_menu.xml" value="0.14635416666666667" />
+        <entry key="..\:/Aryze/app/src/main/res/layout/activity_aryze_home.xml" value="0.2" />
+        <entry key="..\:/Aryze/app/src/main/res/layout/activity_aryze_main.xml" value="0.264" />
+        <entry key="..\:/Aryze/app/src/main/res/layout/activity_aryze_nav_bar_menu.xml" value="0.536" />
         <entry key="..\:/Aryze/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
         <entry key="..\:/Aryze/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Aryze/app/src/main/res/layout/activity_sign_up.xml" value="0.24010416666666667" />
+        <entry key="..\:/Aryze/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
+        <entry key="..\:/Aryze/app/src/main/res/layout/fragment_about.xml" value="0.25416666666666665" />
+        <entry key="..\:/Aryze/app/src/main/res/layout/fragment_alarms.xml" value="0.25416666666666665" />
+        <entry key="..\:/Aryze/app/src/main/res/layout/fragment_bank.xml" value="0.25416666666666665" />
+        <entry key="..\:/Aryze/app/src/main/res/layout/fragment_bible.xml" value="0.25416666666666665" />
+        <entry key="..\:/Aryze/app/src/main/res/layout/fragment_calander.xml" value="0.25416666666666665" />
+        <entry key="..\:/Aryze/app/src/main/res/layout/fragment_church.xml" value="0.11574074074074074" />
+        <entry key="..\:/Aryze/app/src/main/res/layout/fragment_contacts.xml" value="0.25416666666666665" />
+        <entry key="..\:/Aryze/app/src/main/res/layout/fragment_focus.xml" value="0.25416666666666665" />
+        <entry key="..\:/Aryze/app/src/main/res/layout/fragment_pray.xml" value="0.25416666666666665" />
+        <entry key="..\:/Aryze/app/src/main/res/layout/fragment_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Aryze/app/src/main/res/layout/fragment_settings.xml" value="0.25416666666666665" />
+        <entry key="..\:/Aryze/app/src/main/res/layout/fragment_side_bar_nav.xml" value="0.24010416666666667" />
+        <entry key="..\:/Aryze/app/src/main/res/layout/layout_navigation_header.xml" value="0.25416666666666665" />
+        <entry key="..\:/Aryze/app/src/main/res/layout/nav_header.xml" value="0.25416666666666665" />
+        <entry key="..\:/Aryze/app/src/main/res/menu/drawer_menu.xml" value="0.536" />
+        <entry key="..\:/Aryze/app/src/main/res/menu/navigation_menu.xml" value="0.13020833333333334" />
         <entry key="..\:/Aryze/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14635416666666667" />
         <entry key="..\:/Aryze/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14635416666666667" />
       </map>

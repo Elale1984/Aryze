@@ -66,6 +66,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     Toast.makeText(MainActivity.this, "USERNAME = " + user + " PASSWORD = " + pass, Toast.LENGTH_LONG).show();
                     etUser.setText("");
                     etPass.setText("");
+
+                    Intent intent = new Intent(MainActivity.this, AryzeHome.class);
+                    startActivity(intent);
                 }
                 else {
                     Toast.makeText(MainActivity.this, "Invalid Credentials, Try again", Toast.LENGTH_SHORT).show();

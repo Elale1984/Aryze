@@ -66,7 +66,8 @@
         android:layout_below="@+id/etPass"
         android:layout_alignEnd="@+id/etPass"
         android:layout_marginTop="30dp"
-        android:id="@+id/btnLogIn"/>
+        android:id="@+id/btnLogIn"
+        android:contentDescription="Sign in"/>
 
     <TextView
         android:id="@+id/tvSignUp"
@@ -84,12 +85,11 @@
         android:id="@+id/iv_Show_Pass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/ic_menu_view"
         android:layout_below="@+id/tvForgotUser"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="70dp"
         android:layout_marginTop="20dp"
-
-        />
+        android:layout_marginEnd="70dp"
+        android:contentDescription="Show password"
+        app:srcCompat="@android:drawable/ic_menu_view" />
 
 </RelativeLayout>

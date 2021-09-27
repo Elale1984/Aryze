@@ -6,6 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".SignUp">
 
+    <ImageView
+        android:id="@+id/iv_Show_New_Pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_New_Email"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="70dp"
+        android:contentDescription="@string/show_password"
+        app:srcCompat="@android:drawable/ic_menu_view"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/iv_Show_New_REPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_New_Pass"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="70dp"
+        android:contentDescription="@string/show_password"
+        app:srcCompat="@android:drawable/ic_menu_view"
+        tools:ignore="ImageContrastCheck" />
+
     <TextView
         android:id="@+id/tvSignUpHeader"
         android:layout_width="wrap_content"
@@ -24,11 +48,13 @@
         android:layout_below="@+id/tvSignUpHeader"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
+        android:autofillHints="username"
         android:ems="10"
         android:hint="@string/et_user_name_SU"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        tools:ignore="TextContrastCheck" />
 
     <EditText
         android:id="@+id/et_New_Email"
@@ -41,7 +67,8 @@
         android:hint="@string/et_New_Email"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:autofillHints="emailAddress"/>
 
     <EditText
         android:id="@+id/et_New_Pass"
@@ -50,11 +77,13 @@
         android:layout_below="@+id/et_New_Email"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
+        android:autofillHints="password"
         android:ems="10"
         android:hint="@string/et_New_Enter_Pass"
         android:inputType="textPassword"
         android:minHeight="48dp"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        tools:ignore="TextContrastCheck" />
 
     <EditText
         android:id="@+id/et_New_RePass"
@@ -63,11 +92,13 @@
         android:layout_below="@+id/et_New_Pass"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
+        android:autofillHints="password"
         android:ems="10"
         android:hint="@string/et_Re_Enter_Pass"
         android:inputType="textPassword"
         android:minHeight="48dp"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/btn_Sign_Up"
